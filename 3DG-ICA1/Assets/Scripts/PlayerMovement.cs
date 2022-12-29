@@ -11,6 +11,7 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] float movementSpeed = 6f;
     [SerializeField] float jumpForce = 5f;
 
+    
     //For mouse controls
     public Camera camera;
 
@@ -36,6 +37,7 @@ public class PlayerMovement : MonoBehaviour
         float horizontalInput = Input.GetAxis("Horizontal");
         float verticalInput = Input.GetAxis("Vertical");
 
+        
         //For mouse controls
         if(Input.GetMouseButton(0))
         {
@@ -49,6 +51,7 @@ public class PlayerMovement : MonoBehaviour
                 }
             }
         }
+        
 
         //new keyboard movement controls that better simulates the player character's velocity during movement
         rb.velocity = new Vector3(horizontalInput * movementSpeed, rb.velocity.y, verticalInput * movementSpeed);
