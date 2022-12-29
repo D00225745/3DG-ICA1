@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.AI;
 
-public class CameraMovement : MonoBehaviour
+public class MouseMovement : MonoBehaviour
 {
     [SerializeField]
     private Camera camera;
@@ -23,7 +23,8 @@ public class CameraMovement : MonoBehaviour
     // Called once every frame
     void Update()
     {
-        if (Input.GetMouseButtonDown(0))
+        //using GetMouseButton instead of GetMouseButtonDown to continuosly adjust player's movement
+        if (Input.GetMouseButton(0))
         {
             Ray ray = camera.ScreenPointToRay(Input.mousePosition);
 

@@ -1,7 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.AI;
+
 
 public class PlayerMovement : MonoBehaviour
 {   
@@ -12,23 +12,13 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] float jumpForce = 5f;
 
     
-    //For mouse controls
-    public Camera camera;
-
-    private RaycastHit hit;
-
-    private NavMeshAgent agent;
-
-    private string groundTag = "Ground";
-    
 
     // Start is called before the first frame update
     void Start()
     {
         rb = GetComponent<Rigidbody>();
 
-        //For mouse controls
-        agent = GetComponent<NavMeshAgent>();
+        
     }
 
     // Update is called once per frame
@@ -38,21 +28,6 @@ public class PlayerMovement : MonoBehaviour
         float verticalInput = Input.GetAxis("Vertical");
 
         
-        //For mouse controls
-        if(Input.GetMouseButton(0))
-        {
-            Ray ray = camera.ScreenPointToRay(Input.mousePosition);
-
-            if(Physics.Raycast(ray, out hit, Mathf.Infinity))
-            {
-                if(hit.collider.CompareTag(groundTag))
-                {
-                    agent.SetDestination(hit.point);
-                }
-            }
-        }
-        
-
         //new keyboard movement controls that better simulates the player character's velocity during movement
         rb.velocity = new Vector3(horizontalInput * movementSpeed, rb.velocity.y, verticalInput * movementSpeed);
 
