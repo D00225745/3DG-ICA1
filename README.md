@@ -2,3 +2,18 @@
  Individual CA1 for the 3D Games class, by Berk Tatar.
 
 Link used to learn about error: https://answers.unity.com/questions/1668898/github-desktop-warning-lf-will-be-replaced-by-crlf.html
+
+Door Reference: from the Group Game Project regarding the Mineshaft
+
+* For the demo character model
+ * https://assetstore.unity.com/packages/templates/systems/3rd-person-controller-fly-mode-28647
+ * 
+ * The staircase platform from the start of the game; original, but was inspired from the flight platform in this link:
+ * https://assetstore.unity.com/packages/templates/systems/3rd-person-controller-fly-mode-28647
+ * 
+ * For the rest of the character models
+ * https://www.mixamo.com/#/?page=1&type=Character
+ * 
+ * 
+ * For platforms that are moving (may not implement in the final release due to NavMesh being bad :(  ) 
+ * https://www.youtube.com/watch?v=dWtjKKR7Q3s
