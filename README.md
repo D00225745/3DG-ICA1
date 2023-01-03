@@ -17,3 +17,5 @@ Door Reference: from the Group Game Project regarding the Mineshaft
  * 
  * For platforms that are moving (may not implement in the final release due to NavMesh being bad :(  ) 
  * https://www.youtube.com/watch?v=dWtjKKR7Q3s
+
+House Model: From GD2_2022_3DGD_Introduction_Tweening - Transparency
