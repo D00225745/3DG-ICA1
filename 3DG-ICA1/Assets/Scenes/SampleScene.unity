@@ -3342,7 +3342,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: You're trapped here forever! Hahaha!
+  m_Text: Press [F] to chat
 --- !u!222 &629368399
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -6175,11 +6175,8 @@ MonoBehaviour:
   sentences:
   - 'Hahaha! Welcome to my realm, little pickpocket!
 
-
-    Consider it punishment
-    for your transgressions against me!'
-  - Now as nothing but a soul, you are cursed to wander this dimension for eternity
-    for my amusement!
+'
+  - You are now cursed to wander this dimension eternally for my amusement!
   - 'Get going now.
 
 
@@ -13071,9 +13068,9 @@ MonoBehaviour:
 
 '
   - ...Eh.. you tried to pick the Mage's pocket?
-  - Hahahah, no matter... your soul is doomed to this place nontheless...
-  - Unless... you manage to reach the top of this magical construct created by the
-    Mage, and go through the ring of teleportation...
+  - Hahahah, no matter... your soul is doomed to this place nontheless... Belonging
+    now to the Mage...
+  - Unless... you manage to reach the top and go through the ring of benevolence...
   - But be warned... The monsters of the Mage's creation guard the path to the ring...
 --- !u!1001 &1793927789
 PrefabInstance:
