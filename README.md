@@ -15,16 +15,15 @@ Link used to learn about error: https://answers.unity.com/questions/1668898/gith
  * 
  * 
  * For platforms that are moving (may not implement in the final release due to NavMesh being bad :(  ) 
- * https://www.youtube.com/watch?v=dWtjKKR7Q3s
  *https://www.youtube.com/watch?v=mV-Uh_FEBn4   - the most recent one I've used that works with navmesh
 
 House Model: From GD2_2022_3DGD_Introduction_Tweening - Transparency
 
-For collectible coins, I've had help from
+For collectible coins in ItemCollectibles.cs and Rotate.cs , I've had help from
 https://www.youtube.com/watch?v=YQEq6Lkd69c&t=1s
 
 
-For NPC Dialogue:
+For NPC Dialogue system in DialogueSystem.cs and NPC.cs:
 https://www.youtube.com/watch?v=p4a_OYmk1uU
 
 Typewriter sound:

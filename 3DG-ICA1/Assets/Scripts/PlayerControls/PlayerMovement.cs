@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-
+//Old player movements that I used before switching to navmesh
 public class PlayerMovement : MonoBehaviour
 {   
     Rigidbody rb;
