@@ -36,3 +36,9 @@ https://www.youtube.com/watch?v=p4a_OYmk1uU
 
 Typewriter sound:
 https://www.youtube.com/watch?v=VP2WctM2tzU
+
+Walking Sound:
+https://www.youtube.com/watch?v=ogz296WwK2E
+
+Free Casual Game SFX Pack Sounds Asset
+https://assetstore.unity.com/packages/audio/sound-fx/free-casual-game-sfx-pack-54116

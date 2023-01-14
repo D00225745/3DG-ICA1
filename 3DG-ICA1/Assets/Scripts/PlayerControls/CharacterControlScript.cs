@@ -5,6 +5,7 @@ public class CharacterControlScript : MonoBehaviour
     public Camera cam;
     public NavMeshAgent player;
     public Animator playerAnimator;
+    public AudioSource walkSound;
 
     // Update is called once per frame
     void Update()
@@ -17,16 +18,19 @@ public class CharacterControlScript : MonoBehaviour
             if(Physics.Raycast(ray, out hitPoint))
             {
                 player.SetDestination(hitPoint.point);
+                walkSound.Play();
             }
         }
 
         if(player.velocity != Vector3.zero)
         {
             playerAnimator.SetBool("isWalking", true);
+            
         }
         else if(player.velocity == Vector3.zero)
         {
             playerAnimator.SetBool("isWalking", false);
+            
         }
     }
 }
