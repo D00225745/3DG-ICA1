@@ -2657,7 +2657,7 @@ MonoBehaviour:
   - {x: -8.02, y: 5.21, z: -22.51695}
   - {x: -24.56, y: 5.21, z: -22.51695}
   DockDuration: 2
-  MoveSpeed: 0.01
+  MoveSpeed: 4
 --- !u!1 &629368396
 GameObject:
   m_ObjectHideFlags: 0
