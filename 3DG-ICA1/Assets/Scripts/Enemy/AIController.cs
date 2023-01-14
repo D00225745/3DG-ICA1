@@ -32,6 +32,8 @@ public class AIController : MonoBehaviour
     bool m_IsPatrol;                                //  If the enemy is patrol, state of patroling
     bool m_CaughtPlayer;                            //  if the enemy has caught the player
 
+    public Animator playAnimator;                   //this is to trigger the play of monster running animation
+
     void Start()
     {
         m_PlayerPosition = Vector3.zero;
@@ -61,6 +63,15 @@ public class AIController : MonoBehaviour
         else
         {
             Patroling();
+        }
+
+        if(navMeshAgent.velocity != Vector3.zero)
+        {
+            playAnimator.SetBool("isWalking", true);
+        }
+        else if (navMeshAgent.velocity == Vector3.zero)
+        {
+            playAnimator.SetBool("isWalking", false);
         }
     }
 
