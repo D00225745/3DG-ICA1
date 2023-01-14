@@ -3,7 +3,6 @@
 
 Link used to learn about error: https://answers.unity.com/questions/1668898/github-desktop-warning-lf-will-be-replaced-by-crlf.html
 
-Door Reference: from the Group Game Project regarding the Mineshaft
 
 * For the demo character model
  * https://assetstore.unity.com/packages/templates/systems/3rd-person-controller-fly-mode-28647
@@ -20,6 +19,10 @@ Door Reference: from the Group Game Project regarding the Mineshaft
  *https://www.youtube.com/watch?v=mV-Uh_FEBn4   - the most recent one I've used that works with navmesh
 
 House Model: From GD2_2022_3DGD_Introduction_Tweening - Transparency
+
+For collectible coins, I've had help from
+https://www.youtube.com/watch?v=YQEq6Lkd69c&t=1s
+
 
 For NPC Dialogue:
 https://www.youtube.com/watch?v=p4a_OYmk1uU
