@@ -50,3 +50,6 @@ https://www.youtube.com/watch?v=_iF7lkXKHlA
 
 Free Casual Game SFX Pack Sounds Asset
 https://assetstore.unity.com/packages/audio/sound-fx/free-casual-game-sfx-pack-54116
+
+For the AI Chase in AIController.cs I've used
+https://www.youtube.com/watch?v=ieyHlYp5SLQ
