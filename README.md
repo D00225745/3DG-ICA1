@@ -17,5 +17,12 @@ Door Reference: from the Group Game Project regarding the Mineshaft
  * 
  * For platforms that are moving (may not implement in the final release due to NavMesh being bad :(  ) 
  * https://www.youtube.com/watch?v=dWtjKKR7Q3s
+ *https://www.youtube.com/watch?v=mV-Uh_FEBn4   - the most recent one I've used that works with navmesh
 
 House Model: From GD2_2022_3DGD_Introduction_Tweening - Transparency
+
+For NPC Dialogue:
+https://www.youtube.com/watch?v=p4a_OYmk1uU
+
+Typewriter sound:
+https://www.youtube.com/watch?v=VP2WctM2tzU

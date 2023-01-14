@@ -11,9 +11,12 @@
  * https://www.mixamo.com/#/?page=1&type=Character
  * 
  * 
+ * 
  * For platforms that are moving (may not implement in the final release due to NavMesh being bad :(  ) 
  * https://www.youtube.com/watch?v=dWtjKKR7Q3s
  * 
  * 
+ * For NPC dialogue I've used
+ * https://www.youtube.com/watch?v=p4a_OYmk1uU
  * 
  */
