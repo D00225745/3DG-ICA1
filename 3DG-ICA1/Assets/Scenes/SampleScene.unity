@@ -2257,6 +2257,10 @@ PrefabInstance:
       propertyPath: m_Speed
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 4098756503315063913, guid: 65aeda5d62757594b95756a36df85544, type: 3}
+      propertyPath: m_AngularSpeed
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4569759645691265934, guid: 65aeda5d62757594b95756a36df85544, type: 3}
       propertyPath: m_RootOrder
       value: 4
@@ -12195,7 +12199,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4098756503315063913, guid: 65aeda5d62757594b95756a36df85544, type: 3}
       propertyPath: m_Speed
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4098756503315063918, guid: 65aeda5d62757594b95756a36df85544, type: 3}
+      propertyPath: speedRun
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4098756503315063918, guid: 65aeda5d62757594b95756a36df85544, type: 3}
+      propertyPath: speedWalk
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 4569759645691265934, guid: 65aeda5d62757594b95756a36df85544, type: 3}
       propertyPath: m_RootOrder
