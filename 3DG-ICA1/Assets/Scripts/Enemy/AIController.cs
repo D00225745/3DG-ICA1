@@ -2,6 +2,8 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.AI;
+using UnityEngine.SceneManagement;
+
 public class AIController : MonoBehaviour
 {
     public NavMeshAgent navMeshAgent;               //  Nav mesh agent component
@@ -174,6 +176,12 @@ public class AIController : MonoBehaviour
     void CaughtPlayer()
     {
         m_CaughtPlayer = true;
+    }
+
+    //When the monster collides with the player, triggers the GameOver screen
+    void OnTriggerEnter(Collider player)
+    {
+        SceneManager.LoadScene("GameOver");
     }
 
     void LookingPlayer(Vector3 player)
