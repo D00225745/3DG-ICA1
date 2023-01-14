@@ -40,5 +40,8 @@ https://www.youtube.com/watch?v=VP2WctM2tzU
 Walking Sound:
 https://www.youtube.com/watch?v=ogz296WwK2E
 
+Background Music:
+https://www.youtube.com/watch?v=_iF7lkXKHlA
+
 Free Casual Game SFX Pack Sounds Asset
 https://assetstore.unity.com/packages/audio/sound-fx/free-casual-game-sfx-pack-54116
