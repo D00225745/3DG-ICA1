@@ -179,9 +179,13 @@ public class AIController : MonoBehaviour
     }
 
     //When the monster collides with the player, triggers the GameOver screen
-    void OnTriggerEnter(Collider player)
+    private void OnTriggerEnter(Collider other)
     {
-        SceneManager.LoadScene("GameOver");
+        if (other.gameObject.name == "Player")
+        {
+            SceneManager.LoadScene("GameOver");
+        }
+        
     }
 
     void LookingPlayer(Vector3 player)
