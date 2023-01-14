@@ -53,3 +53,6 @@ https://assetstore.unity.com/packages/audio/sound-fx/free-casual-game-sfx-pack-5
 
 For the AI Chase in AIController.cs I've used
 https://www.youtube.com/watch?v=ieyHlYp5SLQ
+
+GameOver image link:
+https://knowyourmeme.com/memes/you-died
