@@ -33,6 +33,11 @@ https://www.freepik.com/photos/roof-texture
 For NPC Dialogue system in DialogueSystem.cs and NPC.cs:
 https://www.youtube.com/watch?v=p4a_OYmk1uU
 
+Ring Model
+https://assetstore.unity.com/packages/3d/props/clothing/accessories/golden-jewelry-use-as-necklace-bracelet-ring-215018
+
+Finish line which ends the game used in Finish.cs
+https://www.youtube.com/watch?v=Va90Uf28Tg8
 
 Typewriter sound:
 https://www.youtube.com/watch?v=VP2WctM2tzU
