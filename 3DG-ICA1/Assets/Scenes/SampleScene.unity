@@ -3309,12 +3309,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 301b042ab5d30384c89f951df2a21456, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Positions:
-  - {x: -8.02, y: 5.21, z: -22.51695}
-  - {x: -24.56, y: 5.21, z: -22.51695}
-  DockDuration: 2
-  MoveSpeed: 4
-  AgentsOnPlatform: []
 --- !u!64 &628481083
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -6216,8 +6210,8 @@ MonoBehaviour:
 
 
     I''ll be watching...'
---- !u!65 &1059078673
-BoxCollider:
+--- !u!135 &1059078673
+SphereCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -6227,8 +6221,8 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 5, y: 5, z: 5}
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Radius: 2.380024
+  m_Center: {x: 0.85399383, y: 0, z: 1.0260344}
 --- !u!1 &1060564384
 GameObject:
   m_ObjectHideFlags: 0
